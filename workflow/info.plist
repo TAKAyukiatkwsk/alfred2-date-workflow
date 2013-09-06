@@ -38,11 +38,9 @@
 				<key>keyword</key>
 				<string>date</string>
 				<key>runningsubtext</key>
-				<string>working...</string>
+				<string>...</string>
 				<key>script</key>
 				<string>/usr/bin/ruby ./main.rb {query}</string>
-				<key>subtext</key>
-				<string>Workflow for date</string>
 				<key>title</key>
 				<string>Display date</string>
 				<key>type</key>
