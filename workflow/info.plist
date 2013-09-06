@@ -63,7 +63,7 @@
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
-				<string></string>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
