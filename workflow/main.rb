@@ -11,13 +11,13 @@ require "alfred"
 Alfred.with_friendly_error do |alfred|
   fb = alfred.feedback
 
-  title = Time.now.to_s
+  time_string = Time.now.to_s
 
   fb.add_item({
     :uid => '',
-    :title => title,
-    :subtitle => '',
-    :arg => '',
+    :title => time_string,
+    :subtitle => 'Copy clipboard',
+    :arg => time_string,
     :valid => 'true'
   })
 
